@@ -1,0 +1,59 @@
+.navbar {
+    background-color: rgb(30, 30, 30);
+    position: fixed;
+    top : 0px;
+    width : 100vw;
+    
+}
+
+.nav-link, .navbar-brand, .navbar-toggler, .btn-src {
+    color : rgb(245, 245, 245);
+}
+
+.navbar-brand:hover {
+    color : rgb(245, 245, 245);
+}
+
+.nav-link:hover {
+    color: rgb(136, 136, 136);
+}
+
+.btn-src {
+    border: rgb(245, 245, 245) solid 3px;
+}
+
+.btn-src:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.navbar-toggler-icon {
+    background-image: url('../assets/images/menu.png');
+}
+
+
+.sticker {
+    width : 100%;
+   
+   
+    border: solid black 3px;
+    border-radius: 2vh;
+    background-image: url('../assets/images/commerce.jpg');
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+.over-sticker {
+    background: linear-gradient(to right, rgba(232, 170, 235, 0.699), rgba(69, 63, 69, 0.5));
+    padding-top: 5vh;
+    font-size: 3vh;
+    height : 15vh;
+    border-radius: 2vh;
+}
+
+
+.topOffset {
+    position: relative;
+    top : 10vh;
+    z-index: -5;
+}
